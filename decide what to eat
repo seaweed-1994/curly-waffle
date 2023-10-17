@@ -1,0 +1,15 @@
+public class Meals {
+public static void main(String[] args) {
+    String[] Meals = {
+            "石家庄正宗安徽牛肉板面",
+            "杨国福麻辣烫",
+            "蛋炒饭",
+            "小炒鸡",
+            "杨靖宇黄焖鸡"
+    };
+    int Length = Meals.length;
+    int rand = (int)(Math.random() * Length);
+    String phrase = Meals[rand];
+    System.out.println("今天中午吃" +phrase);
+}
+}
